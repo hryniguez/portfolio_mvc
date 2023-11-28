@@ -6,7 +6,7 @@ const mainControllers = {
      
     },
 
-   about: (req,res)=>{
+    about: (req,res)=>{
         res.sendFile(path.join(__dirname, "/../views/about.html")); 
 
 }
